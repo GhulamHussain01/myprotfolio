@@ -5,7 +5,7 @@
     font-family: "Montserrat", sans-serif;
 }
  :root{
-     --priamry-color:rgb(56, 101, 110); 
+     --priamry-color:rgb(142, 230, 248); 
     --secondary-color: rgb(29, 151, 137) ;
     --text-color:rgb(255, 255, 255);
 } 
@@ -23,7 +23,7 @@
     display: flex;
     justify-content:space-around;
     align-items: center;
-    position: fixed;
+   position: fixed;
     z-index: 4;
 }
 .logo{
@@ -54,26 +54,27 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #303054;
+
     width:100%;
-    height:50px ;
+     height:50px ;
     padding: 0px 20px;
-    padding: 9%;
+   
     
  }
  .logo{
     margin-left: -10px;
     width: 100px;
     
-    
    font-weight:600; 
-   font-size:15px;
+   font-size:28px;
    
  }
  .nav_link{
  display: none;
  }
  .nav_icon>i{
-    font-size:18px;
+    font-size:25px;
     padding: 0px;
 }
 .dribble_i{
@@ -88,17 +89,18 @@
 /* introduction */
   .container2{
     width: 100%;
+    height:100vh ;
    padding-top: 20px; 
-  padding-bottom: 100px;
+  padding-bottom: 200px;
    background-color:var(--priamry-color);
    color: var(--text-color);
     display: flex;
     justify-content: space-around;
     align-items: center;
     position: relative;
-    top:70px;
-
-}
+    top: 70px;
+   
+} 
 .my_introduction{
     position: relative;
     left: 130px;
@@ -138,7 +140,7 @@
 }
 .my_pic{
      position:absolute;
-     bottom: 2px;
+     
     width: 500px;
     z-index:2;
 }
@@ -168,27 +170,26 @@
 
 
  @media only screen and (max-width:420px){
-   .container2{
+    .container2{
     width: 100%;
-    height: 110vh;
+    height: 120vh;
     display: flex;
     flex-direction: column;
-    
     align-items: center;
     position: relative;
     top: 50px;
    }
    .myname{
-    font-size: 25px;
+    font-size: 40px;
    }
    .line{
-   width: 100px;
+   width: 230px;
    margin-top: 5px;
    }
    .para_intro{
     
-    font-size:13px ;
-    line-height: 15px;
+    font-size:20px ;
+    line-height: 20px;
     margin-top:-10px ;
    position: relative;
    
@@ -204,7 +205,7 @@
    
  }
  .im{
-    font-size: 24px;
+    font-size: 40px;
     font-weight: 300;
  }
  .circle{
@@ -215,12 +216,8 @@
     width: 250px;
  }
   .service{
-    
-    
-    position: relative;
-    left:-32px;
-    bottom: 250px;
-    font-size: 13px;
+ 
+    font-size: 25px;
   }
   .heading_service{
     font-size: 19px;
@@ -240,7 +237,7 @@
 
     width: 200px;
     
-  }
+  } 
   
 
     
@@ -260,7 +257,7 @@
     box-shadow:0px 0px 5px 0px #303054 ;
     position:absolute;
     left:145px;
-     bottom: -40px;
+     bottom: 40px;
     z-index: 3;
     display: flex;
     justify-content: center;
