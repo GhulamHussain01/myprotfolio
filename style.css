@@ -174,7 +174,7 @@
  @media only screen and (max-width:420px){
     .container2{
     width: 100%;
-    height: 120vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content:start;
@@ -237,7 +237,7 @@
  .my_pic{
     width: 300px;
     position: absolute;
-    bottom: 0px;
+    bottom: 50px;
  }
     
 
@@ -306,11 +306,12 @@ font-weight: 700;
 
 @media only screen and (max-width:417px) {
      .container3{
-        width: 90%;
+        width: 80%;
         height: 140px;
+        margin: auto;
         position: absolute;
-        left: 10px;
-        bottom: -129px;
+        left: 36px;
+        bottom: -250px;
       
     }
     .trusted_link{
@@ -453,7 +454,7 @@ height: 150px;
 
 @media only screen and (max-width:417px) {
     .container4{
-        height: 130vh;
+        height: 100vh;
         width: 100%;
         flex-direction: column;
         justify-content: space-around;
@@ -463,11 +464,9 @@ height: 150px;
     }
     .left_site h2{
         position: relative;
-        left: -20px;
-         
+        left: -40px;
         padding: 0px 30px;
-        
-        font-size: 30px;
+        font-size: 25px;
         line-height: 25px;
         margin-bottom: 10px;
     }
@@ -482,44 +481,46 @@ height: 150px;
         width:100%;
     }
     .left_site>p{
-        font-size: 20px;
-        line-height: 18px;
+        font-size: 18px;
+        line-height: 21px;
     }
     .project_info b{
-     font-size: 30px;
+     font-size: 25px;
     }
     .project_info span{
-        font-size: 16px;
+        font-size: 14px;
     }
     .right_item{
         
         position: relative;
-        bottom: -20px;
-        left: -70px;
+    
+        left: -100px;
     
         width: 100%;
-        height: 90px;
+        height: 130px;
     }
     .right_item img{
-        width: 80px;
-        height: 80px;
+        width: 120px;
+        height: 120px;
     }
     .right_item h3{
+    
         position: relative;
-        left: 90px;
-        bottom: 55px;
-        font-size: 10px;
+        left: 150px;
+        bottom: 80px;
+        font-size: 18px;
     }
     .right_item p{
-        font-size: 10px;
+        font-size: 16px;
     }
     .right_item i{
-       
-        font-size: 12px;
+    
+        font-size: 18px;
         position: relative;
-        left: 210px;
-        bottom: 80px;
+        left: 200%;
+        bottom: 110px;
     }
+
 
 }
 
