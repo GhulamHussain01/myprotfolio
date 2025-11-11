@@ -54,7 +54,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #303054;
 
     width:100%;
      height:50px ;
@@ -172,10 +171,10 @@
  @media only screen and (max-width:420px){
     .container2{
     width: 100%;
-    height: 120vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content:start;
     position: relative;
     top: 50px;
    }
@@ -183,63 +182,60 @@
     font-size: 40px;
    }
    .line{
-   width: 230px;
+   width: 200px;
    margin-top: 5px;
    }
    .para_intro{
-    
-    font-size:20px ;
+    font-size:18px ;
     line-height: 20px;
     margin-top:-10px ;
    position: relative;
-   
-
-    
    }
  .my_introduction{
      width: 100%;
      padding-left: 4%;
-    
     position: relative;
-    left: auto;
-   
+    left: 1px;
  }
  .im{
     font-size: 40px;
     font-weight: 300;
  }
- .circle{
-    position: relative;
-    left: 1px;
-    top: 180px;
-    height: 250px;
-    width: 250px;
- }
   .service{
- 
-    font-size: 25px;
-  }
-  .heading_service{
-    font-size: 19px;
-    margin-top: 10px;
-    margin-bottom: 3px;
-  }
-  .show_more{
-    font-size: 12px;
-    margin-top: -15px;
-  }
-  .service_icon{
-    margin-top: -15px;
-  }
-  .my_pic{
-    position: absolute;
-    bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-self: start;
 
-    width: 200px;
+    font-size: 18px;
+    padding:0px 4px;
+    position: relative;
+    right: -15px;
+    top: 1px;
     
-  } 
-  
-
+ } 
+   .heading_service{
+    margin-top: 10px;
+     margin-bottom: 8px;
+  }
+    
+  .show_more{
+ padding:10px 0px;
+ font-size: 18px;
+ color: rgb(255, 255, 0);
+} 
+   .circle{
+    background-color: #303054;
+    position: absolute;
+    left: 30px;
+    bottom: 70px;
+    width: 350px;
+    height: 350px;
+   }
+ .my_pic{
+    width: 300px;
+    position: absolute;
+    bottom: 0px;
+ }
     
 
 }
@@ -365,7 +361,7 @@ font-weight: 700;
  }
  .left_site{
     
-    font-size: 21px;
+    font-size: 40px;
     width: 30%;
     position: relative;
     top:20px;
