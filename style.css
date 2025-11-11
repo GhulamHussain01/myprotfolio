@@ -5,13 +5,13 @@
     font-family: "Montserrat", sans-serif;
 }
  :root{
-     --priamry-color:rgb(142, 230, 248); 
-    --secondary-color: rgb(29, 151, 137) ;
+     --priamry-color:rgb(153, 180, 153); 
+    --secondary-color: rgb(84, 134, 95) ;
     --text-color:rgb(255, 255, 255);
 } 
 
 
-/* my start navbar  */
+/* navbar start ho raha hai */
 
 .container1{
     width: 100%;
@@ -19,7 +19,7 @@
     font-size:20px ;
     font-weight: 500;
     color:var(--text-color);
-    background-color:var(--priamry-color);
+    background-color:var(--secondary-color);
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -83,7 +83,10 @@
     visibility: hidden;
 }
 }
-/* hero section */
+
+
+
+/* hero section start ho raha */
 
 /* introduction */
   .container2{
@@ -253,7 +256,7 @@
     box-shadow:0px 0px 5px 0px #303054 ;
     position:absolute;
     left:145px;
-     bottom: 40px;
+     bottom: -70px;
     z-index: 3;
     display: flex;
     justify-content: center;
@@ -414,7 +417,7 @@ font-weight: 700;
     
     width: 40%;
     position: relative;
-    top: 20px;
+    top: 40px;
   
     
  }
@@ -464,7 +467,7 @@ height: 150px;
          
         padding: 0px 30px;
         
-        font-size: 18px;
+        font-size: 30px;
         line-height: 25px;
         margin-bottom: 10px;
     }
@@ -479,14 +482,14 @@ height: 150px;
         width:100%;
     }
     .left_site>p{
-        font-size: 12px;
+        font-size: 20px;
         line-height: 18px;
     }
     .project_info b{
-     font-size: 20px;
+     font-size: 30px;
     }
     .project_info span{
-        font-size: 8px;
+        font-size: 16px;
     }
     .right_item{
         
